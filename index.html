@@ -10,20 +10,20 @@
 </head>
 
 <body>
-    <header class="inicio">
-
-        <div class="top-bar">
-            <div class="top-info">
+    <header>
+        <section class="top-bar">
+            <section class="top-info">
                 <span><i class="fa-solid fa-envelope"></i> colorflystudio.com</span>
                 <span><i class="fa-solid fa-phone"></i> +54 9 1234 5678</span>
                 <span>
-                    <a href="https://www.google.com/maps/@-24.1839526,-65.3015703,17z/data=!3m1!4b1!4m2!6m1!1s16ilm09ObiHzCFaICP3dCwRCwQV06B90?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                    <a href="https://www.google.com/maps/@-24.1839526,-65.3015703,17z/data=!3m1!4b1!4m2!6m1!1s16ilm09ObiHzCFaICP3dCwRCwQV06B90?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">
                         <img src="img/ubicacion.png" class="icono-ubicacion" alt="">
                         Jujuy, Argentina
                     </a>
                 </span>
-            </div>
-            <ul class="wrapper">
+            </section>
+            <ul class="iconoa_bar">
                 <li class="icon facebook">
 
                     <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
@@ -64,214 +64,260 @@
                         </svg> </a>
                 </li>
             </ul>
-
-        </div>
+        </section>
 
         <nav class="navbar">
 
-            <div class="navbar-container">
+            <section class="navbar-container">
 
-                <div class="logo">
-                    <img src="img/logo.png" alt="Logo" class="logo-header">
-                </div>
+                <a href="#inicio" class="logo">
+                    <img src="img/logo.png" alt="Logo ColorFly Studio" class="logo-header">
+                </a>
 
                 <ul class="menu">
                     <li><a class="activo" href="#inicio">Inicio</a></li>
                     <li><a href="#generar">Generador</a></li>
-                    <li><a href="#como_usar">Como usar</a></li>
-                    <li><a href="#about">Sobre Nosotros</a></li>
-                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#como_usar">Cómo usar</a></li>
+                    <li><a href="#about">Sobre nosotros</a></li>
+                    <li><a href="#contact">Colores guardados</a></li>
                 </ul>
 
-            </div>
+            </sections>
 
         </nav>
 
     </header>
     <main class="principal">
-        <section class="logo-section">
-            <div class="contenido-header">
-                <h1 class="title">GENERADOR DE COLORES</h1>
-                <p class="descripcion">
-                    Crea paletas de colores equilibradas para mejorar la identidad visual de tus proyectos.
-                </p>
-            </div>
-            <!-- From Uiverse.io by Yaya12085 -->
-            <div class="radio-inputs">
-                <label>
-                    <input class="radio-input" type="radio" name="engine" value="6">
-                    <span class="radio-tile">
-                        <span class="radio-icon">
-                            <img src="img/6color.png" alt="Icono">
+        <section class="hero">
+            <section class="info_app">
+                <header class="contenido-header">
+                    <h1 class="title">GENERADOR DE COLORES</h1>
+                    <p class="descripcion">
+                        Crea paletas de colores equilibradas para mejorar la identidad visual de tus proyectos.
+                    </p>
+                </header>
 
+                <!--SELECCION DE CANTIDAD DE COLORES -->
+                <div class="colores-inputs">
+                    <label>
+                        <input class="colores-input" type="radio" name="color" value="6">
+                        <span class="colores-tile">
+                            <span class="colores-icon">
+                                <img src="img/6color.png" alt="Icono">
+
+                            </span>
+                            <span class="colores-label">6 COLORES</span>
                         </span>
-                        <span class="radio-label">6 COLORES</span>
-                    </span>
-                </label>
-                <label>
-                    <input checked="" class="radio-input" type="radio" name="engine" value="8">
-                    <span class="radio-tile">
-                        <span class="radio-icon">
-                            <img src="img/8color.png" alt="Icono">
+                    </label>
+                    <label>
+                        <input checked="" class="colores-input" type="radio" name="color" value="8">
+                        <span class="colores-tile">
+                            <span class="colores-icon">
+                                <img src="img/8color.png" alt="Icono">
+                            </span>
+                            <span class="colores-label">8 COLORES</span>
                         </span>
-                        <span class="radio-label">8 COLORES</span>
-                    </span>
-                </label>
-                <label>
-                    <input class="radio-input" type="radio" name="engine" value="9">
-                    <span class="radio-tile">
-                        <span class="radio-icon">
-                            <img src="img/9color.png" alt="Icono">
+                    </label>
+                    <label>
+                        <input class="colores-input" type="radio" name="color" value="9">
+                        <span class="colores-tile">
+                            <span class="colores-icon">
+                                <img src="img/9color.png" alt="Icono">
 
+                            </span>
+                            <span class="colores-label">9 COLORES</span>
                         </span>
-                        <span class="radio-label">9 COLORES</span>
-                    </span>
-                </label>
-            </div>
-        </section>
-        <section class="palette-section">
-
-            <div class="container">
-                <div class="palette">
-                    <div class="color"><span>264653</span></div>
-                    <div class="color"><span>2A9D8F</span></div>
-                    <div class="color"><span>E9C46A</span></div>
-                    <div class="color"><span>F4A261</span></div>
-                    <div class="color"><span>E76F51</span></div>
-                    <div class="color"><span>D72638</span></div>
-                    <div class="color"><span>F46036</span></div>
-                    <div class="color"><span>2E294E</span></div>
-                    <div class="color"><span>1B998B</span></div>
-
+                    </label>
                 </div>
-                <div id="stats">
-                    <span>Mas de 5000 colores guardados</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                        <path
-                            d="M4 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5S5.5 9.83 5.5 9 4.83 7.5 4 7.5zm10 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm-5 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5S9.83 7.5 9 7.5z">
-                        </path>
-                    </svg>
-                </div>
-            </div>
+            </section>
+
+            <!--PALETAS DE COLORES -->
+            <section class="palette-section">
+                <section class="container">
+                    <section class="palette">
+
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+
+                    </section>
+                    <aside id="stats">
+                        <span id="info-color">Más de 5000 colores guardados</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                            ...
+                        </svg>
+                    </aside>
+
+                </section>
 
 
-            <button id="generar">
-                <img src="img/repetir.png" alt="Generar">
-                Generar
-            </button>
+                <section class="boton_generar_color">
+                    <button id="generar"><img src="img/repetir.png" alt="Generar"> Generar Paletas </button>
+
+                    <button class="boton_guardar_color">
+                        <span class="IconContainer">
+                            <svg viewBox="0 0 384 512" height="0.9em" class="icon">
+                                <path
+                                    d="M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="text">Guardar</span>
+                    </button>
+
+                </section>
+
+            </section>
+
         </section>
 
+        <!-- COLORES GUARDADOS -->
+
+        <section class="guardados-container">
+
+            <section class="guardados">
+                <h2>Colores Guardados</h2>
+
+                <div id="lista-guardados"></div>
+
+                <button class="button_eliminar">
+                    <img src="img/eliminar.png" alt="Eliminar colores guardados" class="icono-eliminar">
+                </button>
+            </section>
+
+        </section>
+
+        <!-- INSTRUCCIONES DELA PAGINA -->
+
+        <section id="como_usar" class="cards">
+
+            <article class="card">
+
+                <div class="card-front">
+                    <img src="img/aleatorio (3).png" alt="Aleatorio" class="card-img">
+                    <p class="card-text">ALEATORIO</p>
+                </div>
+
+                <div class="card__content">
+                    <p class="card__title">Aleatorio</p>
+                    <p class="card__description">Generacion de paletas aleatorias 100% unicas.</p>
+                </div>
+                </div>
+
+            </article>
+
+            <article class="card">
+                <div class="card-front">
+                    <img src="img/lapiz.png" alt="Aleatorio" class="card-img">
+                    <p class="card-text">CODIGO HEX</p>
+                </div>
+
+                <div class="card__content">
+                    <p class="card__title">Codigo Hex</p>
+                    <p class="card__description">Obten el codigo Hex de cada color facilmente.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-front">
+                    <img src="img/copiar.png" alt="Aleatorio" class="card-img">
+                    <p class="card-text">COPIAR</p>
+                </div>
+
+                <div class="card__content">
+                    <p class="card__title">Copiar</p>
+                    <p class="card__description">Copia los colores con un solo click.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-front">
+                    <img src="img/idea.png" alt="Aleatorio" class="card-img">
+                    <p class="card-text">INSPIRATE</p>
+                </div>
+
+                <div class="card__content">
+                    <p class="card__title">Inspirate</p>
+                    <p class="card__description">Paletas perfectas para diseño web y mas.</p>
+                </div>
+            </article>
+
+        </section>
 
     </main>
-    <section id="como_usar" class="cards">
 
-        <div class="card">
-            <div class="card-front">
-                <img src="img/aleatorio (3).png" alt="Aleatorio" class="card-img">
-                <p class="card-text">ALEATORIO</p>
-            </div>
-
-            <div class="card__content">
-                <p class="card__title">Aleatorio</p>
-                <p class="card__description">Generacion de paletas aleatorias 100% unicas.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-front">
-                <img src="img/lapiz.png" alt="Aleatorio" class="card-img">
-                <p class="card-text">CODIGO HEX</p>
-            </div>
-
-            <div class="card__content">
-                <p class="card__title">Codigo Hex</p>
-                <p class="card__description">Obten el codigo Hex de cada color facilmente.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-front">
-                <img src="img/copiar.png" alt="Aleatorio" class="card-img">
-                <p class="card-text">COPIAR</p>
-            </div>
-
-            <div class="card__content">
-                <p class="card__title">Copiar</p>
-                <p class="card__description">Copia los colores con un solo click.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-front">
-                <img src="img/idea.png" alt="Aleatorio" class="card-img">
-                <p class="card-text">INSPIRATE</p>
-            </div>
-
-            <div class="card__content">
-                <p class="card__title">Inspirate</p>
-                <p class="card__description">Paletas perfectas para diseño web y mas.</p>
-            </div>
-        </div>
-
-
-    </section>
-
+    <!-- PIE DE PAGINA -->
 
     <footer id="contact">
 
-        <div class="footer-top">
+        <section class="footer-top">
 
-            <div class="footer-item">
-                <img src="img/duda.png" alt="">
+            <article class="footer-item">
+                <img src="img/duda.png" alt="¿Cómo funciona?">
+
                 <div>
-                    <h3>¿Cómo funciona?</h3>
-                    <p>Selecciona la cantidad de colores que deseas...</p>
+                    <h2>¿Cómo funciona?</h2>
+                    <p>Selecciona la cantidad de colores que deseas.</p>
+                    <p>Presiona el botón de generar.</p>
                     <p>Obtendrás una paleta con sus códigos HEX.</p>
+                    <p>Haz clic sobre un color para guardarlo y crear tu colección.</p>
                 </div>
-            </div>
+            </article>
 
-            <div class="footer-item">
-                <img src="img/Telegram.png" alt="">
+            <article class="footer-item">
+                <img src="img/Telegram.png" alt="Contacto">
+
                 <div>
-                    <h3>Contáctanos</h3>
+                    <h2>Contáctanos</h2>
                     <p>¿Tienes dudas o sugerencias?</p>
-                    <p>Escríbenos y estaremos encantados de ayudarte.</p>
+                    <p>Escríbenos por Facebook, Instagram o Twitter y estaremos encantados de ayudarte.</p>
                 </div>
+            </article>
 
-            </div>
-            <div id="about" class="footer-item">
-                <img src="img/about-us.png" alt="">
+            <article id="about" class="footer-item">
+                <img src="img/about-us.png" alt="Sobre nosotros">
 
                 <div>
-                    <h3>Sobre Nosotros</h3>
-                    <p>ColorFly Studio es una herramienta diseñada para generar paletas de colores
-                        de forma rápida e intuitiva, facilitando el proceso creativo para diseñadores
-                        y desarrolladores.</p>
+                    <h2>Sobre Nosotros</h2>
+                    <p>
+                        ColorFly Studio es una empresa encargada de diseñar
+                        paletas de colores de forma rápida e intuitiva,
+                        facilitando el proceso creativo para diseñadores
+                        y desarrolladores.
+                    </p>
                 </div>
-            </div>
+            </article>
 
+        </section>
 
+        <section class="footer-bottom">
 
-
-        </div>
-
-        <div class="footer-bottom">
-
-            <div class="footer-logo">
+            <a href="#inicio" class="footer-logo">
                 <img src="img/logo_fin.png" alt="ColorFly Studio">
-            </div>
+            </a>
 
             <p class="footer-copy">
                 © 2026 ColorFly Studio. Todos los derechos reservados.
             </p>
 
-            <p class="footer-dev">
+            <address class="footer-dev">
                 Desarrollado por <strong>César Luis Manzano</strong>
+            </address>
 
-            </p>
-
-        </div>
+        </section>
 
     </footer>
 
+
     <script src="script.js"></script>
+
 </body>
 
 </html>
