@@ -11,7 +11,7 @@ const botonMenu = document.getElementById("menu-toggle");
 const menu = document.querySelector(".menu");
 
 botonMenu.addEventListener("click", () => {
-    menu.classList.toggle("activo");
+    menu.classList.toggle("active");
 });
 
 colores.forEach(color => {
