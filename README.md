@@ -1,5 +1,3 @@
-# 🎨 ColorFly Studio
-
 <p align="center">
   <img src="img/logo.png" alt="ColorFly Studio" width="250">
 </p>
@@ -34,6 +32,10 @@ El usuario puede generar colores aleatorios, bloquear aquellos que desea conserv
 ### Colores guardados
 
 ![Guardados](img/pagina_img2.png)
+
+### Indicaciones de como usar
+
+![Guardados](img/pagina_img3.png)
 
 ---
 
