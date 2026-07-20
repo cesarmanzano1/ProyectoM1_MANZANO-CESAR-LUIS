@@ -56,7 +56,7 @@ El usuario puede generar colores aleatorios, bloquear aquellos que desea conserv
 1. Clona el repositorio.
 
 ```bash
-git clone https://github.com/cesarmanzano1/PROYECTO-MODULO1.git
+git clone https://github.com/cesarmanzano1/ProyectoM1_MANZANO-CESAR-LUI.git
 ```
 
 2. Entra en la carpeta.
