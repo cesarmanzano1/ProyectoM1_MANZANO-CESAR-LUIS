@@ -68,7 +68,7 @@ cd PROYECTO-MODULO1_MANZANO CESAR LUIS
 3. Abre el archivo **index.html** en tu navegador.
 
 ---
-4. o entra en el siguiente enlace : https://cesarmanzano1.github.io/PROYECTO-MODULO1/
+4. o entra en el siguiente enlace : https://cesarmanzano1.github.io/ProyectoM1_MANZANO-CESAR-LUIS/
 
 ## 🎯 Funcionalidades
 
