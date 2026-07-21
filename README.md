@@ -72,9 +72,7 @@ cd PROYECTO-MODULO1_MANZANO CESAR LUIS
 ---
 
 4. o entra en el siguiente enlace : https://cesarmanzano1.github.io/ProyectoM1_MANZANO-CESAR-LUIS/
-=======
-4. O ingresa al siguiente enlace: https://cesarmanzano1.github.io/ProyectoM1_MANZANO-CESAR-LUIS/
->>>>>>> 856ba45 (agregando correcciones)
+
 
 ## 🎯 Funcionalidades
 
