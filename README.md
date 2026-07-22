@@ -111,7 +111,7 @@ Durante el desarrollo del proyecto se utilizó Inteligencia Artificial como herr
 
 Las consultas realizadas y sus respectivas respuestas se encuentran documentadas en el archivo:
 
-📄 **Documentacion/CHATGPT.pdf**
+📄 **Documentacion/CHATGPT.pdf** : https://github.com/cesarmanzano1/ProyectoM1_MANZANO-CESAR-LUIS/tree/main/Documentacion
 
 ## 📂 Estructura
 
